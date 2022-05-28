@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="./player.css" />
+    <title>AudioPlayer</title>
+  </head>
+  <body>
+    <div class="player-conatiner">
+      <div class="player-info">
+        <h4 id="title">Own javasctipt App</h4>
+        <div class="progress-container">
+          <div class="progress"></div>
+        </div>
+      </div>
+      <audio src="player/90m.mp3" id="audio"></audio>
+      <div class="img-container">
+        <img src="images/90m.jpg" alt="my pic" id="cover" />
+      </div>
+      <div class="navigation">
+        <button id="prev" class="btn">Pre</button>
+        <button id="play" class="play-btn">Play</button>
+        <button id="next" class="btn3">Next</button>
+      </div>
+    </div>
+    <script src="./player.js"></script>
+  </body>
+</html>
